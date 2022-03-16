@@ -1,0 +1,79 @@
+body {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.body-shell {
+  border: black;
+}
+
+h1 {
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.card,
+.list-group-item {
+  border: 0;
+}
+
+.current-icon {
+  font-size: 80px;
+}
+
+.current-forecast,
+.five-day-forecast {
+  text-align: center;
+}
+
+.current-city,
+.day-one,
+.day-two,
+.day-three,
+.day-four,
+.day-five {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.current-date-time {
+  font-weight: 700;
+}
+
+.current-temp {
+  font-size: 100px;
+}
+
+li {
+  display: inline;
+}
+
+.five-day-icon {
+  font-size: 40px;
+}
+
+.current-date-time,
+.day-one-temp,
+.day-two-temp,
+.day-three-temp,
+.day-four-temp,
+.day-five-temp,
+#city-form {
+  font-size: 22px;
+}
+
+.temperature {
+  font-size: 90px;
+}
+
+.units {
+  font-size: 20px;
+  position: relative;
+  top: -45px;
+}
+
+#precipitation,
+#wind {
+  display: inline;
+  font-size: 22px;
+}
